@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/EditLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="20sp"
+        android:ems="10"
+        android:hint="Enter Email Address"
+        android:inputType="textEmailAddress"
+        android:minHeight="48sp"
+        android:textColorHint="@color/black"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/EditTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="20sp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/EdtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="20sp"
+        android:textColorHint="@color/black"
+        android:textSize="30sp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Edibutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="20sp"
+        android:text="REGISTER"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/TvRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="50sp"
+        android:text="Dont have an account!! Click Here" />
+</LinearLayout>
